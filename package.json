@@ -1,0 +1,13 @@
+{
+  "name": "neo-project",
+  "scripts": {
+    "build": "babel src/ -d build/",
+    "prepublish": "npm run build",
+    "flow": "flow"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.49.1"
+  }
+}
